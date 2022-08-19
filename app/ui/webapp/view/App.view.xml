@@ -1,0 +1,11 @@
+<mvc:View controllerName="ns.ui.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:fe="sap.fe.macros"
+    xmlns="sap.m">
+
+	<Page>
+		<content>
+			<fe:Table contextPath="/Books" metaPath="@com.sap.vocabularies.UI.v1.LineItem" id="myTable" />
+		</content>
+	</Page>
+</mvc:View>
